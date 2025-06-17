@@ -1,0 +1,7 @@
+version: '3'
+services:
+  admission-admin:
+    image: ${IMAGE_REG}
+    ports:
+      - '5173:5173'
+    network_mode: bridge
